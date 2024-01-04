@@ -19,6 +19,10 @@
     width: 36vw;
 }
 
+.about .container .row {
+    width: 100vh;
+}
+
 .recent .text {
     padding: 30px;
 }
@@ -56,7 +60,7 @@
         margin-top: 50px;
         width: 100vw;
     }
-    img {
-        width: 100vh;
+    .about .container .row {
+        width: auto;
     }
 }
