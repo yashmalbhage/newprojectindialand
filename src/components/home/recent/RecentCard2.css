@@ -1,0 +1,24 @@
+/* RecentCard2.css */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100%;
+    /* Add other styles as needed */
+}
+
+
+/* Add additional styling for specific screen sizes using media queries */
+
+@media screen and (min-width: 600px) {
+    .box {
+        width: 48%;
+        /* Example: Two columns on screens wider than 600px */
+    }
+}
+
+
+/* Add more media queries as needed for different breakpoints */

@@ -4,21 +4,28 @@ export const nav = [
     path: "/",
   },
   {
-    text: "about",
-    // path: "/about",
+    text: "about IndiaLand",
+    path: "/about",
+  },
+  {
+    text: "Leadership",
+    path: "",
+  },
+  {
+    text: "Chairman's Corner",
+    path: "",
   },
   {
     text: "Projects",
-    // path: "/services",
+    path: "",
   },
-  {
-    text: "blog",
-    // path: "/blog",
-  },
-  {
-    // text: "pricing",
-    // path: "/pricing",
-  },
+  // {
+  //   text: "blog",
+  //   path: "/blog",
+  // },
+ 
+  
+  
   {
     text: "contact",
     path: "/contact",
@@ -29,28 +36,24 @@ export const featured = [
   {
     cover: "../images/hero/h2.png",
     name: "Area Development",
-    total: "155+ Property",
+    total: "",
   },
   {
     cover: "../images/hero/h3.png",
-    name: "IT parks",
-    total: "300 Property",
+    name: "Retail Spaces",
+    total: "",
   },
   {
     cover: "../images/hero/h4.png",
     name: "Commercial spaces",
-    total: "80 Property",
+    total: "",
   },
   {
     cover: "../images/hero/h6.png",
     name: "Under construction",
-    total: "80 Property",
+    total: "",
   },
-  {
-    cover: "../images/hero/h6.png",
-    name: "Godowns",
-    total: "80 Property",
-  },
+  
 ]
 export const list = [
   {
@@ -64,7 +67,7 @@ export const list = [
   },
   {
     id: 2,
-    cover: "../images/Coimbatore/1.jpg",
+    cover: "../images/coimbatore/1.jpg",
     name: "Indialand Tech park",
     location: "Coimbatore",
     // category: "For Sale",
@@ -80,7 +83,57 @@ export const list = [
     price: "Know more",
     // type: "Offices",
   },
+  {
+    id: 4,
+    cover: "../images/Pune/9.jpg",
+    name: "Cyber city Magarpataa",
+    location: "Pune",
+    // category: "For Rent",
+    price: "Know more",
+    // type: "Offices",
+  },
+  {
+    id: 5,
+    cover: "../images/Pune/7.jpg",
+    name: "Grand Highstreet,",
+    location: "Pune",
+    // category: "For Rent",
+    price: "Know more",
+    // type: "Offices",
+  },
+
+  {
+    id: 6,
+    cover: "../images/Pune/3.jpg",
+    name: "Indialand global tech park, Hinjewadi",
+    location: "Pune",
+    // category: "For Rent",
+    price: "Know more",
+    // type: "Offices",
+  },
+  
+  
  
+]
+export const list2 = [
+  {
+    id: 1,
+    cover: "../images/blog1500.jpg",
+    name: "TowerD",
+    subtitle: "Fresh perspective on urban Living",
+    // category: "For Rent",
+    price: "Know more",
+    // type: "Apartment",
+  },
+  {
+    id: 2,
+    cover: "../images/blog2.png",
+    name: "IndiaLand's Green initiative",
+    subtitle: "Transforming real estate with sustainble ",
+    // category: "For Sale",
+    price: "Know more",
+    // type: "Condos",
+  },
 ]
 export const awards = [
   {
@@ -98,6 +151,11 @@ export const awards = [
     icon: <i class='fa-solid fa-lightbulb'></i>,
     num: "10+",
     name: "II & INDUSTRAIL PARKS",
+  },
+  {
+    icon: <i class='fa-solid fa-lightbulb'></i>,
+    num: "10+",
+    name: "Years of expereince",
   },
 ]
 export const location = [

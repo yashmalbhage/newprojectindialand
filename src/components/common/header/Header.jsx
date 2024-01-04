@@ -11,7 +11,7 @@ const Header = () => {
       <header>
         <div className='container flex'>
           <div className='logo'>
-            {/* <img src='./images/logo.png' alt='' /> */}
+            {/* <img src='./images/logo (2).png' alt='' /> */}
             <h1>IndiaLand</h1>
           </div>
           <div className='nav'>
