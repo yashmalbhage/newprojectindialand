@@ -7,18 +7,18 @@ export const nav = [
     text: "about IndiaLand",
     path: "/about",
   },
-  {
-    text: "Leadership",
-    path: "",
-  },
-  {
-    text: "Chairman's Corner",
-    path: "",
-  },
-  {
-    text: "Projects",
-    path: "",
-  },
+  // {
+  //   text: "Leadership",
+  //   path: "",
+  // },
+  // {
+  //   text: "Chairman's Corner",
+  //   path: "",
+  // },
+  // {
+  //   text: "Projects",
+  //   path: "",
+  // },
   // {
   //   text: "blog",
   //   path: "/blog",
