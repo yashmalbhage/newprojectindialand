@@ -23,8 +23,8 @@ const Footer = () => {
             <div className='logo'>
               {/* <img src='../images/logo-light.png' alt='' /> */}
               IndiaLand
-              <h2>Do You Need Help With Anything?</h2>
-              <p>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>
+              {/* <h2>Do You Need Help With Anything?</h2> */}
+              {/* <p>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p> */}
 
               <div className='input flex'>
                 <input type='text' placeholder='Email Address' />
@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {footer.map((val) => (
+          {/* {footer.map((val) => (
             <div className='box'>
               <h3>{val.title}</h3>
               <ul>
@@ -42,11 +42,11 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-          ))}
+          ))} */}
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2023 IndiaLand Groups. Designd By Yash Malbhage.</span>
+        <span>© 2023 IndiaLand Groups.</span>
       </div>
     </>
   )
