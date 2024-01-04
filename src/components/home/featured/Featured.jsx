@@ -9,17 +9,15 @@ import "animate.css/animate.min.css";
 const Featured = () => {
 
   return (
-    <ScrollAnimation animateIn="fadeIn" duration={10000} delay={1000}>
-       <>
+    
+    <>
       <section className='featured background'>
         <div className='container'>
           <Heading title='Featured Property Types' subtitle='Find All Type of Property.' />
           <FeaturedCard />
         </div>
       </section>
-    </>S
-</ScrollAnimation>
-   
+    </>
     
   )
 }
