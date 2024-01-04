@@ -2,8 +2,6 @@ import React from "react"
 import Heading from "../../common/Heading"
 import "./Featured.css"
 import FeaturedCard from "./FeaturedCard"
-import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.min.css";
 
 
 const Featured = () => {
