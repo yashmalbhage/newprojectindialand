@@ -23,7 +23,7 @@ export const LeaderShip = () => {
             <p>He has two decades of experience managing various companies. He is actively involved with Technology companies, Commercial real estate ventures, Finance and Trading etc. Mr. Fabiani has been a strategic advisor to companies on issues of corporate governance and transparency.</p>
             <br></br>
           </div>
-          <div className='right row'>
+          <div className='right row' style={{width:"152rem"}}>
             <img src={img1} alt='' />
           </div>
         </div>
