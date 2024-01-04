@@ -66,6 +66,10 @@ header .toggle {
         background-color: #27ae60;
         padding: 20px;
     }
+    header li {
+        margin-top: 10px;
+        ;
+    }
     header li a {
         display: inline-block;
         margin-bottom: 20px;

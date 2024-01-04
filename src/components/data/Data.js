@@ -1,35 +1,35 @@
-export const nav = [
+export const profile = [
   {
-    text: "home",
-    path: "/",
+    id:1,
+    cover:"../images/umesh.jpg",
+    name:"Mr. CS Ilangovan (Umesh)",
+    location:"Sr. Group Vice President",
+    description:"Mr. Umesh emerges as the linchpin in fostering and sustaining crucial strategic alliances within the corporate landscape, particularly with bankers and esteemed business associates. Boasting an impressive professional trajectory that spans over two decades, Mr. Umesh is invaluable contributions to the group have been notably significant during his fourteen-year tenure."
+    
+
   },
   {
-    text: "about IndiaLand",
-    path: "/about",
+    id:2,
+    cover:"../images/Dipesh.jpg",
+    name:"Mr Dipesh Desai(VP)",
+    location:"Account",
+    description:"Over two decades in handling functions of finance, accounts & taxation, statutory compliances, legal and statutory compliance in banking operations, corporate strategy, cross border transactions structuring, etc."
   },
-  // {
-  //   text: "Leadership",
-  //   path: "",
-  // },
-  // {
-  //   text: "Chairman's Corner",
-  //   path: "",
-  // },
-  // {
-  //   text: "Projects",
-  //   path: "",
-  // },
-  // {
-  //   text: "blog",
-  //   path: "/blog",
-  // },
- 
+  {
+    id:3,
+    cover:"../images/salai.jpg",
+    name:"Mr. Salai kumaaran(CEO)",
+    location:"Group Real Estate",
+    description:"Vast experience of over three decades in real estate, construction and related finance, legal and technical requirements. He is well experienced in handling large projects and new technologies."
+  },
+  {
+    id:4,
+    cover:"../images/amitab.jpg",
+    name:"Mr. Amitabh Bhambhani",
+    location:"Head of Projects",
+    description:"Civil Engineer with more than three decades of experience in design, development, execution, and maintenance of various projects. He has also specialised in retail, mall and development and maintenance of IT"
+  }
   
-  
-  {
-    text: "contact",
-    path: "/contact",
-  },
 ]
 export const featured = [
   

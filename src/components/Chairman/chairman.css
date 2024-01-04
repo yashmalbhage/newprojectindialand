@@ -1,0 +1,62 @@
+.about {
+    margin-bottom: 80px;
+}
+
+.about .heading {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 19px;
+    padding-right: 30%;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.about .container img {
+    width: 36vw;
+}
+
+.recent .text {
+    padding: 30px;
+}
+
+.recent .category span {
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.recent .category i {
+    font-size: 20px;
+    color: #bec7d8;
+}
+
+.recent p {
+    color: #72809d;
+}
+
+.recent .button {
+    border-top: 1px solid #e4e8f3;
+    padding: 10px 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .about .container {
+        flex-direction: column;
+    }
+    .about p {
+        padding: 0;
+    }
+    .about .container img {
+        margin-top: 50px;
+        width: 100vw;
+    }
+    img {
+        width: 100vh;
+    }
+}
