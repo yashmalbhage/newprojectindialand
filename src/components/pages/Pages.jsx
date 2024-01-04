@@ -10,6 +10,9 @@ import Services from "../services/Services"
 import Contact from "../contact/Contact"
 import { LeaderShip } from "../LeaderShip/LeaderShip"
 import { Chiarman } from "../Chairman/Chiarman"
+import { Project1 } from "../project1/Project1"
+import { Project2 } from "../project2/Project2"
+import { Project3 } from "../project3/Project3"
 
 const Pages = () => {
   return (
@@ -25,6 +28,13 @@ const Pages = () => {
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/Leadership' component={LeaderShip} />
           <Route exact path='/Chairman corner' component={Chiarman} />
+          <Route exact path='/Hinjewadi' component={Project1} />
+          <Route exact path='/Coimbatore' component={Project2} />
+          <Route exact path='/Chennai' component={Project3} />
+
+
+
+
 
         </Switch>
         <Footer />

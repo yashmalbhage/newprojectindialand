@@ -51,8 +51,10 @@ const Header = () => {
                   </Dropdown.Toggle>
 
                   <Dropdown.Menu>
-                    <Dropdown.Item href="/project1">Project 1</Dropdown.Item>
-                    <Dropdown.Item href="/project2">Project 2</Dropdown.Item>
+                    <Dropdown.Item href="/Hinjewadi">Hinjewadi</Dropdown.Item>
+                    <Dropdown.Item href="/Chennai">Chennai</Dropdown.Item>
+                    <Dropdown.Item href="/Coimbatore">Coimbatore</Dropdown.Item>
+
                     {/* Add more project links as needed */}
                   </Dropdown.Menu>
                 </Dropdown>

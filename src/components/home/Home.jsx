@@ -8,22 +8,35 @@ import Recent from "./recent/Recent"
 import Team from "./team/Team"
 import { Commonabt } from "../commonabout/Commonabt"
 import { Blog } from "./recent/blog"
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Home = () => {
   return (
     <>
-      <Hero />
-      <Featured />
-      <Commonabt/>
-      <Awards />
+    <Hero />
+        
+       
+
+   
+    <Featured />
+    <ScrollAnimation  animateIn="fadeIn" duration={100} delay={1200}>
+      <Commonabt/> </ScrollAnimation>
+      <ScrollAnimation  animateIn="fadeIn" duration={100} delay={1200}>
+      <Awards /></ScrollAnimation>
+      <ScrollAnimation  animateIn="fadeIn" duration={100} delay={1200}><Recent /></ScrollAnimation>
+      <ScrollAnimation  animateIn="fadeIn" duration={100} delay={1020}> <Blog/></ScrollAnimation>
 
 
-      <Recent />
+
+      
       {/* <Location /> */}
-      <Blog/>
-      <Team />
+     
       {/* <Price /> */}
+    
     </>
+
+  
   )
 }
 
