@@ -1,7 +1,8 @@
 import React from 'react'
 import Heading from '../common/Heading'
 import './main.css'
-
+import Lottie from 'lottie-react'
+import animationDaya from './Animation - 1704571791602.json'
 
 export const Commonabt = () => {
   return (
@@ -17,7 +18,8 @@ export const Commonabt = () => {
             <button className='btn4'>More about us</button>
           </div>
           <div className='right row'>
-            <img src='./images/aboutindiland.jpg' alt='' />
+            <Lottie animationData={animationDaya}/>
+
           </div>
         </div>
     </div>

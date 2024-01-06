@@ -1,0 +1,44 @@
+.newcontainer {
+    display: flex;
+    background: linear-gradient(123deg, white 50%, #364f8b 50%);
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.animation {
+    width: 47%;
+    padding-left: 4.3%;
+}
+
+.title {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    padding-left: 2%;
+}
+
+.title h1 {
+    font-size: 4rem;
+    color: #364f8b;
+}
+
+.title h6 {
+    font-size: 2rem;
+    color: #bc975a
+}
+
+@media screen and (max-width: 768px) {
+    .newcontainer {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .title h1 {
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 12%;
+    }
+    .animation {
+        width: 100%;
+        margin-top: 14%;
+    }
+}

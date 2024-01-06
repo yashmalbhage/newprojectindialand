@@ -8,17 +8,20 @@ import Recent from "./recent/Recent"
 import Team from "./team/Team"
 import { Commonabt } from "../commonabout/Commonabt"
 import { Blog } from "./recent/blog"
+import { Newabout } from "../Newabt/Newabout"
+import { Newheader } from "../neHeader/Newheader"
 
 const Home = () => {
   return (
     <>
-        
+        <Newheader/>
         <Hero />
 
    
     <Featured />
 
       <Commonabt/>
+      {/* <Newabout/> */}
       <Awards />
 
 

@@ -1,0 +1,8 @@
+.newabt section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100%;
+    padding: 100px 170px;
+    ;
+}
