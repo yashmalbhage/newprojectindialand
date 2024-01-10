@@ -1,11 +1,11 @@
 header {
-    background-color: #fff;
-    height: 10vh;
+    background-color: #ffffff7b;
+    height: 12vh;
     box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
     padding: 15px 0;
-    position: sticky;
+    position: relative;
     top: 0;
-    z-index: 99999;
+    z-index: 1;
 }
 
 header img {
@@ -63,16 +63,20 @@ header .toggle {
         top: 10vh;
         left: 0;
         width: 100%;
-        background-color: #27ae60;
+        background-color: white;
         padding: 20px;
     }
     header li {
         margin-top: 10px;
-        ;
+        /* padding-right: 100px; */
     }
     header li a {
         display: inline-block;
-        margin-bottom: 20px;
-        color: #fff;
+        /* flex-wrap: wrap; */
+        text-decoration: none;
+        margin-left: 14px;
+        margin-bottom: 10px;
+        /* padding-right: 90px; */
+        /* color: red; */
     }
 }

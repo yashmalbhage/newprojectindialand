@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
         <Newheader/>
-        <Hero />
+        {/* <Hero /> */}
 
    
     <Featured />

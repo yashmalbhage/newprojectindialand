@@ -10,9 +10,12 @@ export const Newheader = () => {
         <div className="newcontainer">
             <div className="title">
                 <h1>
-                    IndiaLand Groups
+                Pioneering Grade A<br/>
+                Commercial and<br/>
+                Industrial Spaces in<br/>
+                India
                 </h1>
-                <h6>The Brighter side of life</h6>
+                <p>IndiaLand has its presence across India in major cities like Mumbai,<br/>Chennai, Coimbatore and Pune.</p>
             </div>
             <div className="animation">
             <Lottie animationData={animationDaya}/>

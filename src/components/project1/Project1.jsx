@@ -3,6 +3,7 @@ import Back from '../common/Back'
 import Heading from '../common/Heading'
 import './pro1.css'
 import img from '../images/1.jpg'
+import VideoBackground from '../videobg/Videobg'
 import { Slider } from '../slider/Slider'
 import im2 from '../images/Pune/2.jpg'
 import im3 from '../images/Pune/3.jpg'
@@ -10,14 +11,13 @@ import im4 from '../images/Pune/4.jpg'
 import im5 from '../images/Pune/5.jpg'
 import im6 from '../images/Pune/6.jpg'
 
-
-
+import videong from './pune.mp4'
 
 export const Project1 = () => {
   return (
     <div>
          <section className='about'>
-        <Back name='INDIALAND GLOBAL INDUSTRIAL PARK' title='Hinjewadi, Pune' cover={img} />
+          <VideoBackground videoFile={videong} title='INDIALAND GLOBAL INDUSTRIAL PARK'/>
         <div className='about'>
         <div className='container flex mtop'>
           <div className='left row'>

@@ -1,21 +1,114 @@
 .recent .text {
-  padding: 30px;
+    padding: 30px;
 }
+
 .recent .category span {
-  padding: 4px 15px;
-  border-radius: 2px;
-  font-weight: 600;
-  font-size: 13px;
-  display: inline-block;
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
 }
+
 .recent .category i {
-  font-size: 20px;
-  color: #bec7d8;
+    font-size: 20px;
+    color: #bec7d8;
 }
+
 .recent p {
-  color: #72809d;
+    color: #72809d;
 }
+
 .recent .button {
-  border-top: 1px solid #e4e8f3;
-  padding: 10px 30px;
+    border-top: 1px solid #e4e8f3;
+    padding: 10px 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 10px 10%;
+}
+
+#card-area {
+    padding: 50px 0;
+}
+
+.box-area-news {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.box2 {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+}
+
+.box2 img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.overlay {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(transparent, white 95%);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.overlay h3 {
+    font-weight: 500;
+    /* margin-bottom: 5px; */
+    margin-top: 80%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.overlay a {
+    margin-top: 1px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    background: #262626;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+.box2:hover img {
+    transform: scale(1.1);
+}
+
+.box2:hover .overlay {
+    height: 94vh;
+}
+
+@media screen and (max-width: 768px) {
+    .box2:hover .overlay {
+        height: 45vh;
+    }
 }

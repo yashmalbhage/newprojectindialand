@@ -9,7 +9,11 @@ const Recent = () => {
       <section className='recent padding'>
         <div className='container'>
           <Heading title='Recent Projects' subtitle='prime land parcels in South Mumbai, Coimbatore, suburban Chennai (Padalam, Oragadam), and Pune (Hinjewadi) for high-end commercial and residential development.' />
-          <RecentCard />
+        
+            <RecentCard />
+
+               
+       
         </div>
       </section>
     </>

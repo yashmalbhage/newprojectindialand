@@ -10,14 +10,15 @@ import im4 from '../images/Pune/4.jpg'
 import im5 from '../images/Pune/5.jpg'
 import im6 from '../images/Pune/6.jpg'
 
-
+import VideoBackground from '../videobg/Videobg'
+import videobg from './coimbatore.mp4'
 
 
 export const Project2 = () => {
   return (
     <div>
          <section className='about'>
-        <Back name='INDIALAND TECH PARK' title='Coimbatore' cover={img} />
+          <VideoBackground  videoFile={videobg} title="INDIALAND TECH PARK"/>
         <div className='about'>
         <div className='container flex mtop'>
           <div className='left row'>

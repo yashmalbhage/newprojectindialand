@@ -9,15 +9,16 @@ import im3 from '../images/Pune/3.jpg'
 import im4 from '../images/Pune/4.jpg'
 import im5 from '../images/Pune/5.jpg'
 import im6 from '../images/Pune/6.jpg'
-
-
+import  VideoBackground from '../videobg/Videobg'
+import vidoebg from './Chennai.mp4'
 
 
 export const Project3 = () => {
   return (
     <div>
          <section className='about'>
-        <Back name='INDIALAND INDUSTRIAL AND LOGISTIC PARK ORAGADAM ' title='Chennai' cover={img} />
+       <VideoBackground videoFile={vidoebg} title="Indialand industrial and logistic  park oragadam"/>
+
         <div className='about'>
         <div className='container flex mtop'>
           <div className='left row'>

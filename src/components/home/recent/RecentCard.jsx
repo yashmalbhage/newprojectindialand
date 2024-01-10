@@ -1,34 +1,22 @@
 import React from "react"
 import { list } from "../../data/Data"
+// import './recent.css'
 
 const RecentCard = () => {
   return (
     <>
-      <div className='content grid3 mtop'>
+      <div className='box-area-news'>
         {list.map((val, index) => {
           const { cover, category, location, name, price, type } = val
           return (
-            <div className='box shadow' key={index}>
-              <div className='img'>
-                <img src={cover} alt='' />
-              </div>
-              <div className='text'>
-                <div className='category flex'>
-                  <span style={{ background: category === "For Sale" ? "#25b5791a" : "#ff98001a", color: category === "For Sale" ? "#25b579" : "#ff9800" }}>{category}</span>
-                  <i className='fa fa-heart'></i>
+            <div className="box2">
+                    <img src={cover} alt=""/>
+                    <div className="overlay">
+                        <h3>{name}</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque modi explicabo libero ea nam. Quod.</p>
+                        <a href="#">Know more</a>
+                    </div>
                 </div>
-                <h4>{name}</h4>
-                <p>
-                  <i className='fa fa-location-dot'></i> {location}
-                </p>
-              </div>
-              <div className='button flex'>
-                <div>
-                  <button className='btn4'>{price}</button> <label htmlFor=''></label>
-                </div>
-                <span>{type}</span>
-              </div>
-            </div>
           )
         })}
       </div>

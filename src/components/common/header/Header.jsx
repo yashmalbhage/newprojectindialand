@@ -22,10 +22,10 @@ const Header = () => {
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
               <li style={{marginRight:'0px'}}>
-                <Link to='/'><a style={{color:'black'}}>Home</a></Link>
+                <a  href='/'style={{color:'black'}}>Home</a>
               </li>
               <li style={{marginRight:'26px', color:'black'}}>
-                <Link to='/contact'><a style={{color:'black'}}>contact</a></Link>
+                <a href='/contact' style={{color:'black'}}>contact</a>
               </li>
               <li>
                 {/* Bootstrap Dropdown for Projects */}
