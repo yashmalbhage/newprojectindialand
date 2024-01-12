@@ -6,7 +6,7 @@ import './Videobg.css';
 const VideoBackground = ({ videoFile, title }) => {
   return (
     <div className="video-background">
-      <video autoPlay  className="video" controls="controls"  preload='auto' loop muted playsInline  >
+      <video autoPlay='true-play'  className="video" controls="controls"  preload='auto' loop muted playsInline  >
         <source src={videoFile} type="video/mp4" />
        
       </video>
