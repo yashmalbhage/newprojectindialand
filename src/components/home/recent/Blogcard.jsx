@@ -9,7 +9,7 @@ const RecentCard2 = () => {
         {list2.map((val, index) => {
           const { cover, subtitle, name, price } = val;
           return (
-            <div className='box shadow' key={index} style={{marginLeft:'2%' ,width:'30%'}}>
+            <div className='box shadow' key={index} style={{marginLeft:'2%'}}>
               <div className='img'>
                 <img src={cover} alt='' />
               </div>
