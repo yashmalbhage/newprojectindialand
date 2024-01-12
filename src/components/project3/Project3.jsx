@@ -12,6 +12,7 @@ import im6 from '../images/Pune/6.jpg'
 import  VideoBackground from '../videobg/Videobg'
 import vidoebg from './Chennai.mp4'
 import YourComponent from '../projectdesc/Projectdsc'
+import Imagegrid from '../Imagegrid/Imagegrid'
 
 
 export const Project3 = () => {
@@ -50,22 +51,12 @@ export const Project3 = () => {
          <section className='about'>
        <VideoBackground videoFile={vidoebg} title="Indialand industrial and logistic  park oragadam"/>
 
-        <div className='about'>
-        <div className='container flex mtop'>
-          <div className='left row'>
-            <Heading title ="INDIALAND INDUSTRIAL AND LOGISTIC PARK ORAGADAM " subtitle="Chennai" />
-
-       
-            <br></br>
-            
-          </div>
-          <div className='right row' >
-            <img src={img} alt="" />
-          </div>
-        </div>
-    </div>
+        
     
     <YourComponent sections={sections}/>
+    <Imagegrid img1='../images/Pune/2.jpg' img2='../images/Pune/3.jpg' img3='../images/Pune/4.jpg' img4='../images/Pune/6.jpg' img5='../images/Pune/7.jpg'/>
+
+  
         
       </section>
         

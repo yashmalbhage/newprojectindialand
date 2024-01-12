@@ -7,14 +7,13 @@ const RecentCard = () => {
     <>
       <div className='box-area-news'>
         {list.map((val, index) => {
-          const { cover, category, location, name, price, type } = val
+          const { cover, category, location, name, price, type, link } = val
           return (
             <div className="box2">
                     <img src={cover} alt=""/>
                     <div className="overlay">
                         <h3>{name}</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque modi explicabo libero ea nam. Quod.</p>
-                        <a href="#">Know more</a>
+                        <a href={link}>Know more</a>
                     </div>
                 </div>
           )

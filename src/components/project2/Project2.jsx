@@ -4,16 +4,17 @@ import Heading from '../common/Heading'
 import './project2.css'
 import img from '../images/coimbatore/1.jpg'
 import { Slider } from '../slider/Slider'
-import im2 from '../images/Pune/2.jpg'
+// import im2 from '../images/Coimbatore/2.jpg'
+
 import im3 from '../images/Pune/3.jpg'
-import im4 from '../images/Pune/4.jpg'
+
 import im5 from '../images/Pune/5.jpg'
 import im6 from '../images/Pune/6.jpg'
 
 import VideoBackground from '../videobg/Videobg'
 import videobg from './coimbatore.mp4'
 import YourComponent from '../projectdesc/Projectdsc'
-
+import Imagegrid from '../Imagegrid/Imagegrid'
 
 export const Project2 = () => {
   const sections = [
@@ -52,6 +53,8 @@ export const Project2 = () => {
           <VideoBackground  videoFile={videobg} title="INDIALAND TECH PARK"/>
         
             <YourComponent sections={sections}/>
+            <Imagegrid img1='../images/coimbatore/1.jpg' img2='../images/coimbatore/3.jpg' img3='../images/coimbatore/4.jpg' img4='../images/coimbatore/6.jpg' img5='../images/coimbatore/2.jpg'/>
+
 
       
 

@@ -6,8 +6,12 @@
 }
 
 .box {
-    width: 100%;
+    /* width: 60%; */
     /* Add other styles as needed */
+}
+
+img {
+    width: 100%;
 }
 
 

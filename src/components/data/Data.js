@@ -63,44 +63,22 @@ export const list = [
     location: "Chennai",
     // category: "For Rent",
     price: "Know more",
+    link:'/Chennai'
     // type: "Apartment",
   },
   {
     id: 2,
     cover: "../images/coimbatore/1.jpg",
-    name: "Indialand Tech park",
+    name: "Indialand Tech park, Coimbatore",
     location: "Coimbatore",
     // category: "For Sale",
     price: "Know more",
+    link:'/Coimbatore'
     // type: "Condos",
   },
-  {
-    id: 3,
-    cover: "../images/Pune/1.jpg",
-    name: "IndiaLand Global industrial park ",
-    location: "Pune",
-    // category: "For Rent",
-    price: "Know more",
-    // type: "Offices",
-  },
-  {
-    id: 4,
-    cover: "../images/Pune/9.jpg",
-    name: "Cyber city Magarpataa",
-    location: "Pune",
-    // category: "For Rent",
-    price: "Know more",
-    // type: "Offices",
-  },
-  {
-    id: 5,
-    cover: "../images/Pune/7.jpg",
-    name: "Grand Highstreet,",
-    location: "Pune",
-    // category: "For Rent",
-    price: "Know more",
-    // type: "Offices",
-  },
+  
+  
+
 
   {
     id: 6,
@@ -109,6 +87,7 @@ export const list = [
     location: "Pune",
     // category: "For Rent",
     price: "Know more",
+    link:'/Hinjewadi'
     // type: "Offices",
   },
   
@@ -128,6 +107,15 @@ export const list2 = [
   {
     id: 2,
     cover: "../images/blog2.png",
+    name: "IndiaLand's Green initiative",
+    subtitle: "Transforming real estate with sustainble ",
+    // category: "For Sale",
+    price: "Know more",
+    // type: "Condos",
+  },
+  {
+    id: 3,
+    cover: "../images/5.jpg",
     name: "IndiaLand's Green initiative",
     subtitle: "Transforming real estate with sustainble ",
     // category: "For Sale",
