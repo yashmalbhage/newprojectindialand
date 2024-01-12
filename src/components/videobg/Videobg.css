@@ -24,11 +24,11 @@ video {
     align-items: center;
     /* padding-top: 1%; */
     /* color: white; */
-    background: rgba(255, 255, 255, 0.249);
+    background: #041b5091;
 }
 
 .contentvideo h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     display: flex;
     font-weight: 600;
     flex-wrap: wrap;
@@ -36,6 +36,6 @@ video {
     align-items: center;
     text-align: center;
     padding: 25px 25px;
-    color: #1851d6;
-    text-shadow: 3px 3px 4px rgba(255, 253, 253, 0.571);
+    color: white;
+    text-shadow: 5px 5px 5px rgba(255, 253, 253, 0.571);
 }
