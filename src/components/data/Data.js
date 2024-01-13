@@ -55,6 +55,24 @@ export const featured = [
   },
   
 ]
+
+export  const philo=[
+  {
+    cover:'./m503t0019_15june22_target_arrow_05.jpg',
+    name:"Misson",
+    para:"To increase the operating capacity of our rent yielding asset 3X to 6 million sq. ft. by year 2020. To increase the market cap of our non-listed real estate operating portfolio to INR 3.5 billion by 2022."
+  },
+  {
+    cover:'./target_11218168.png',
+    name:"Vision",
+    para:"To pursue real estate investment, development and management opportunities responsibly and with integrity for the benefit of our investors, partners, tenants, employees, company, and the community."
+  },
+  {
+    cover:'file:///C:/Users/neomax/Desktop/projects/client1/Real-estate-website-master/src/components/data/target_11218168.png',
+    name:'Core',
+    para:"Driven by extraordinary visionaries, IndiaLand is committed to creating World class Buildings adhering to best practices of quality construction. We are adamant about minimising the risk of our Clients and Personnel by adopting high safety and health standards."
+  }
+]
 export const list = [
   {
     id: 1,
@@ -113,15 +131,7 @@ export const list2 = [
     price: "Know more",
     // type: "Condos",
   },
-  {
-    id: 3,
-    cover: "../images/blog3.jpg",
-    name: "IndiaLand's Green initiative",
-    subtitle: "Transforming real estate with sustainble ",
-    // category: "For Sale",
-    price: "Know more",
-    // type: "Condos",
-  },
+ 
 ]
 export const awards = [
   {

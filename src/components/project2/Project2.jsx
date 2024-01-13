@@ -19,34 +19,35 @@ import Imagegrid from '../Imagegrid/Imagegrid'
 export const Project2 = () => {
   const sections = [
     {
-      title: 'Project description',
+      title: 'Introduction and Location',
       paragraph:
         
-        "Chennai, the vibrant capital of Tamil Nadu, stands out as a bustling metropolis with a population of 7 million. It proudly hosts the Oragadam Industrial Area, a prominent hub known for being the largest automobile manufacturing center in South Asia. This region attracts Fortune 500 companies, contributing to the city's industrial prowess. The automotive sector, in particular, plays a significant role in shaping the economic landscape of Chennai.",
+      "Spread across 12 acres, the state-of-the-art IT Park encompasses a build-up space of 1.1 million sq ft. Specifically designed to meet the needs of IT/ITES companies, this cutting-edge facility is located 10 kilometers north of Coimbatore and 12 kilometers from the airport. Its strategic proximity to NH47 makes it easily accessible. This pioneering IT Park is the first of its kind in the region, showcasing a commitment to technological advancements.",
     },
     {
-      title: 'Project description',
+      title: 'Eco-Friendly Design and Specifications',
       paragraph:
-        "Nestled within this dynamic industrial environment is the IndiaLand Industrial and Logistic Park, strategically positioned on an expansive 18-acre land parcel. This dedicated space caters to the specific needs of major automotive players, offering an optimal solution for their inventory storage requirements. The park's location, just 4-5 kilometers away from key Fortune 500 manufacturing plants, positions it as a pivotal player in supporting the logistical and supply chain needs of these industry giants.",
+        "Notably, the IT Park features an eco-friendly design, with a Gold Rated green building specification aimed at enhancing user comfort and ensuring high energy and floor efficiency. The emphasis on sustainability aligns with modern standards for environmentally conscious infrastructure. The property is fully compliant with the National Building Code, emphasizing safety and regulatory adherence. The incorporation of international standard facilities positions it as a premier destination for IT/ITES companies.",
     },
     {
-      title: 'Project description',
+      title: ' Location Benefits and Connectivity',
       paragraph:
-        "The IndiaLand Industrial and Logistic Park emerges as a critical facilitator, connecting the intricate network of automotive companies with streamlined storage and distribution solutions. Its strategic proximity enhances operational efficiency, making it an indispensable asset for the thriving automobile sector in the region. As a centralized hub for industrial and logistical activities, the park plays a crucial role in sustaining the growth and success of the automotive industry within the Oragadam Industrial Area.",
+        " The IT Park's strategic location serves as a significant advantage, being situated 10 kilometers north of Coimbatore and merely 12 kilometers away from the airport. With close proximity to NH47, it offers excellent connectivity, facilitating seamless transportation for businesses and employees alike. This accessibility enhances the appeal of the IT Park for companies looking to establish their presence in the region.",
     },
     {
-      title: 'Project description',
+      title: 'Facilities and Compliance',
       paragraph:
-        "In summary, Chennai's dynamic industrial landscape, fueled by the Oragadam Industrial Area, establishes the city as a key player in South Asia's automobile manufacturing sector. The IndiaLand Industrial and Logistic Park, with its strategic location and dedicated infrastructure, stands as a vital resource for automotive giants, offering efficient solutions for storage and distribution in the heart of this thriving industrial hub.",
+        "The IT Park boasts state-of-the-art facilities designed in accordance with international standards. This ensures that it meets the specific requirements of IT/ITES companies, integrating advanced technologies for optimal comfort and operational efficiency. Full compliance with the National Building Code underscores the commitment to safety and regulatory standards, providing a secure and conducive environment for businesses.",
     },
     {
-      title: 'Project description',
+      title: 'Special Economic Zone (SEZ) and Serene Environment',
       paragraph:
-        "In summary, Chennai's dynamic industrial landscape, fueled by the Oragadam Industrial Area, establishes the city as a key player in South Asia's automobile manufacturing sector. The IndiaLand Industrial and Logistic Park, with its strategic location and dedicated infrastructure, stands as a vital resource for automotive giants, offering efficient solutions for storage and distribution in the heart of this thriving industrial hub.",
+        "The designated area as a Special Economic Zone (SEZ) underscores its significance for the development of IT and ITES facilities. Nestled in a serene and pollution-free atmosphere, the INDIALAND TECH PARK emerges as a cutting-edge information technology hub. With a commitment to top-notch infrastructure facilities, it stands as a testament to the forward-looking approach in fostering a conducive environment for technological innovation and business growth.",
     },
    
     // Add more sections as needed
   ];
+ 
   return (
     <div>
          <section className='about'>

@@ -54,7 +54,7 @@ export const Project3 = () => {
         
     
     <YourComponent sections={sections}/>
-    <Imagegrid img1='../images/Pune/2.jpg' img2='../images/Pune/3.jpg' img3='../images/Pune/4.jpg' img4='../images/Pune/6.jpg' img5='../images/Pune/7.jpg'/>
+    <Imagegrid img1='../images/Chennai/2.jpg' img2='../images/Chennai/3.jpg' img3='../images/Chennai/4.jpg' img4='../images/Chennai/5.jpg' img5='../images/Chennai/1.jpg'/>
 
   
         

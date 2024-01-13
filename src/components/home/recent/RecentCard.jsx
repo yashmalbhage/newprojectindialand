@@ -1,6 +1,6 @@
 import React from "react"
 import { list } from "../../data/Data"
-// import './recent.css'
+import './recent.css'
 
 const RecentCard = () => {
   return (

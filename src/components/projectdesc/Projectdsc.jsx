@@ -24,7 +24,7 @@ const YourComponent = ({ sections }) => {
                 className={`step step0${index + 1} ${index <= activeStep ? 'active' : ''}`}
                 onClick={() => handleStepClick(index)}
               >
-                <div className="step-inner">{step}</div>
+                <div className="step-inner">Description</div>
               </li>
             ))}
           </ul>

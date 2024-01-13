@@ -3,7 +3,7 @@
 }
 
 .about .heading {
-    text-align: left;
+    text-align: center;
     width: 100%;
     margin-bottom: 30px;
 }
@@ -15,6 +15,34 @@
     line-height: 30px;
 }
 
+.featuredd .box {
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+    border-radius: 6px;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.about .container img {
+    width: 25px;
+    height: 65px;
+    margin: auto;
+}
+
+.missoncontainer {
+    display: flex;
+    /* margin: 30px; */
+}
+
+.missoncontainer .box {
+    margin: 10px;
+}
+
+.box2 h4 {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
     .about .container {
         flex-direction: column;
@@ -24,5 +52,8 @@
     }
     .about .container img {
         margin-top: 50px;
+    }
+    .missoncontainer {
+        flex-wrap: wrap;
     }
 }

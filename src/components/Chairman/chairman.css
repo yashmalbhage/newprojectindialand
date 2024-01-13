@@ -1,25 +1,25 @@
-.about {
+.aboutchairman {
     margin-bottom: 80px;
 }
 
-.about .heading {
+.aboutchairman .heading {
     text-align: left;
     width: 100%;
     margin-bottom: 30px;
 }
 
-.about p {
+.aboutchairman p {
     font-size: 19px;
     padding-right: 30%;
     margin-bottom: 20px;
     line-height: 30px;
 }
 
-.about .container img {
-    width: 36vw;
+.aboutchairman .container img {
+    width: 56vw;
 }
 
-.about .container .row {
+.aboutchairman .container .row {
     width: 100vh;
 }
 

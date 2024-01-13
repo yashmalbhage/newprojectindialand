@@ -4,7 +4,7 @@ import './main.css'
 export const Profilecard = () => {
   return (
     <>
-    <div className='content grid4 mtop'>
+    <div className='content grid3 mtop'>
       {profile.map((val, index) => {
         const { cover, location, name, description } = val
         return (

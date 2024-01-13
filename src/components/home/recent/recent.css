@@ -42,7 +42,7 @@
 .box-area-news {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 33px;
     margin-top: 50px;
 }
 
@@ -104,7 +104,7 @@
 }
 
 .box2:hover .overlay {
-    height: 94vh;
+    height: 74vh;
 }
 
 @media screen and (max-width: 768px) {
