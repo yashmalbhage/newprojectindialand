@@ -37,7 +37,7 @@ const Header = () => {
                   <Dropdown.Menu>
                     <Dropdown.Item href="/about">About IndiaLand</Dropdown.Item>
                     <Dropdown.Item href="/leadership">Leadership</Dropdown.Item>
-                    <Dropdown.Item href="/project2">Chairman's corner</Dropdown.Item>
+                    <Dropdown.Item href="/Chairman corner">Chairman's corner</Dropdown.Item>
 
                     {/* Add more project links as needed */}
                   </Dropdown.Menu>

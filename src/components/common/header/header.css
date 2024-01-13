@@ -41,6 +41,10 @@ header .toggle {
     display: none;
 }
 
+header li a {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
     header {
         padding: 0;
