@@ -10,7 +10,7 @@ export const Profilecard = () => {
         return (
           <div className='box shadow' key={index}>
             <div className='img'>
-              <img src={cover} alt='' />
+              <img src={cover} alt='' style={{width:"100%", height:"100%"}}/>
             </div>
             <div className='text'>
              

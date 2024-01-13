@@ -11,9 +11,9 @@ import { Profilecard } from '../Profilecard/Profilecard'
 export const LeaderShip = () => {
   return (
     <div>
-         <section className='about'>
+         <section className='aboutleadership'>
         <Back name='Leadership' title='LeaderShip in IndiaLand' cover={img} />
-        <div className='about'>
+        <div className='aboutleadership2'>
         <div className='container flex mtop'>
           <div className='left row'>
             <Heading title ="Harish Fabiani" subtitle="Chair Person" />
