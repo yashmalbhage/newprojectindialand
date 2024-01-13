@@ -18,7 +18,7 @@ export const Commonabt = () => {
             <p> They hold prime land parcels in South Mumbai, Coimbatore, suburban Chennai (Padalam, Oragadam), and Pune (Hinjewadi) for high-end commercial and residential development.</p>
             <br></br>
             <div className="btnnewclass">
-              <Link to='/about'>          <button className='btn4' >More about us</button>
+              <Link to='/about'>          <button className='btn3'style={{ background:"#bc975a"}} >More about us</button>
 </Link>
             </div>
             

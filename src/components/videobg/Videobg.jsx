@@ -13,7 +13,7 @@ const VideoBackground = ({ videoFile, title, buttonText }) => {
       {/* Your content goes here */}
       <div className="contentvideo">
         <h1>{title}</h1>
-        <a href='/contact'>{buttonText && <button className='btn4' style={{marginTop:"5%", background:"#bc975a"}}>{buttonText}</button>}       
+        <a href='/contact'>{buttonText && <button className='btn3' style={{marginTop:"5%", background:"#bc975a"}}>{buttonText}</button>}       
 </a>
         {/* <p>Y</p> */}
       </div>

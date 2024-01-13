@@ -130,7 +130,7 @@ img {
 
 .btn3 {
     background: #ff6922;
-    border-radius: 50px;
+    border-radius: 8px;
 }
 
 .btn4 {
@@ -197,7 +197,7 @@ img {
 }
 
 .animatedpart {
-    animation: fade 0.1s ease-in;
+    animation: fade 2.5s ease-in;
     animation-timeline: view();
 }
 
