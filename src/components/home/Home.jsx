@@ -12,7 +12,7 @@ import { Newabout } from "../Newabt/Newabout"
 import { Newheader } from "../neHeader/Newheader"
 import VideoBackground from "../videobg/Videobg"
 import videobg from './coimbatore.mp4'
-
+import './home.css'
 const Home = () => {
   return (
     <>

@@ -1,0 +1,14 @@
+.animatedpart {
+    animation: fade 2.5s ease-in;
+    animation-timeline: view();
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translate();
+    }
+}

@@ -10,8 +10,8 @@ const RecentCard2 = () => {
           const { cover, subtitle, name, price } = val;
           return (
             <div className='box shadow' key={index} style={{marginLeft:'2%'}}>
-              <div className='img'>
-                <img src={cover} alt='' style={{width:"100%"}}/>
+              <div className='img' style={{display:'flex', justifyContent:'center'}}>
+                <img src={cover} alt='' style={{width:"70%"}}/>
               </div>
               <div className='text'>
                 <div className='category flex'>

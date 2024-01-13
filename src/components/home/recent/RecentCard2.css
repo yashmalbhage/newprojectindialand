@@ -19,7 +19,9 @@ img {
 }
 
 .box {
-    width: 30%
+    width: 30%;
+    border-radius: 10px;
+    /* height: 300px; */
 }
 
 
@@ -28,6 +30,7 @@ img {
 @media screen and (max-width:1020px) {
     .box {
         width: 100%;
+        margin: 4%;
         /* Example: Two columns on screens wider than 600px */
     }
     .blogcontainer {
