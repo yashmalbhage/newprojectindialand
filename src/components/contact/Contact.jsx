@@ -2,13 +2,27 @@ import React from "react"
 import img from "../images/pricing.jpg"
 import Back from "../common/Back"
 import "./contact.css"
-
+import MissonCard from "../about/missoncard/MissonCard"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faMapMarker, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 const Contact = () => {
   return (
     <>
       <section className='contact mb'>
         <Back name='Contact Us' title='Get Helps & Friendly Support' cover={img} />
         <div className='container'>
+        <div className='contactcontainer'>
+       
+
+<MissonCard icon={faMapMarker}  name='Location' para="
+Indialand Global Tech Park, Hinjawadi, Hinjawadi, Pune, Maharashtra 411057"/>
+<MissonCard icon={faEnvelope} name="Email"para="info@indialand.net" />
+<MissonCard icon={faPhone} name="Phone no" para="+91 9962 0980 32" />
+</div>
+
+
+
+
           <form className='shadow'>
             <h4>Fillup The Form</h4> <br />
             <div>
@@ -20,6 +34,9 @@ const Contact = () => {
             <button>Submit Request</button>
           </form>
         </div>
+
+
+        
       </section>
     </>
   )

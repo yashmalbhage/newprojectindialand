@@ -47,7 +47,7 @@
 }
 
 .box2 {
-    border-radius: 10px;
+    border-radius: 5px;
     position: relative;
     overflow: hidden;
     box-shadow: 5px 5px 15px rgba(195, 195, 195, 0.9);
@@ -55,7 +55,7 @@
 
 .box2 img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     display: block;
     transition: transform 0.5s;
 }

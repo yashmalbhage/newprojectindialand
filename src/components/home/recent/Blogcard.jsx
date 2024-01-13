@@ -5,13 +5,13 @@ import './RecentCard2.css'; // Create a CSS file for styling
 const RecentCard2 = () => {
   return (
     <>
-      <div className='content grid1 mtop' style={{ justifyContent: 'center' }}>
+      <div className='blogcontainer' style={{ justifyContent: 'center'}}>
         {list2.map((val, index) => {
           const { cover, subtitle, name, price } = val;
           return (
             <div className='box shadow' key={index} style={{marginLeft:'2%'}}>
               <div className='img'>
-                <img src={cover} alt='' />
+                <img src={cover} alt='' style={{width:"100%"}}/>
               </div>
               <div className='text'>
                 <div className='category flex'>

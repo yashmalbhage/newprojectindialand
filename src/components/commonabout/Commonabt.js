@@ -7,7 +7,8 @@ import { Link } from 'react-router-dom'
 
 export const Commonabt = () => {
   return (
-    <div className='about'>
+    <div className='about' style={{    background: 'linear-gradient(125deg, white 62%, #364f8b 38%)'
+    }}>
         <div className='container flex mtop'>
           <div className='left row' >
             <Heading title='About IndiaLand' subtitle='Check out our company story' />
@@ -17,7 +18,8 @@ export const Commonabt = () => {
             <p> They hold prime land parcels in South Mumbai, Coimbatore, suburban Chennai (Padalam, Oragadam), and Pune (Hinjewadi) for high-end commercial and residential development.</p>
             <br></br>
             <div className="btnnewclass">
-          {/* <button className='btn4' >More about us</button> */}
+              <Link to='/about'>          <button className='btn4' >More about us</button>
+</Link>
             </div>
             
 

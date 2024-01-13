@@ -3,6 +3,7 @@ import './Newheader.css'
 import Lottie from 'lottie-react'
 import animationDaya from './Animation - 1704569191958.json'
 import Particlesbg from '../particlesbg/Particlesbg'
+import { Slider } from '../slider/Slider'
 export const Newheader = () => {
   return (
     <div>
@@ -18,7 +19,9 @@ export const Newheader = () => {
                 <p>IndiaLand has its presence across India in major cities like Mumbai,<br/>Chennai, Coimbatore and Pune.</p>
             </div>
             <div className="animation">
-            <Lottie animationData={animationDaya}/>
+            {/* <Lottie animationData={animationDaya}/> */}
+            
+
 
             </div>
 

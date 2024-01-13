@@ -63,9 +63,7 @@ const Header = () => {
             </ul>
           </div>
           <div className='button flex'>
-            <button className='btn1'>
-              <i className='fa fa-sign-out'></i> Know more
-            </button>
+           
           </div>
           <div className='toggle'>
             <button onClick={() => setNavList(!navList)}>

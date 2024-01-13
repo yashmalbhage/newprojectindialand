@@ -10,24 +10,39 @@ import { Commonabt } from "../commonabout/Commonabt"
 import { Blog } from "./recent/blog"
 import { Newabout } from "../Newabt/Newabout"
 import { Newheader } from "../neHeader/Newheader"
+import VideoBackground from "../videobg/Videobg"
+import videobg from './coimbatore.mp4'
 
 const Home = () => {
   return (
     <>
-        <Newheader/>
+        {/* <Newheader/> */}
         {/* <Hero /> */}
 
+        
+        <VideoBackground videoFile={videobg} buttonText="Contact us" title="IndiaLand Groups"/>
+        <div className="animatedpart"> <Featured /></div>
+
+
+
+        <div className="animatedpart"> <Commonabt/></div>
+        <div className="animatedpart"> <Awards /></div>
+        <div className="animatedpart"> <Recent /></div>
+        <div className="animatedpart"> <Blog/></div>
+
+
+
+    
    
-    <Featured />
 
-      <Commonabt/>
+      
       {/* <Newabout/> */}
-      <Awards />
+      
 
 
-      <Recent />
+      
       {/* <Location /> */}
-      <Blog/>
+      
       {/* <Team /> */}
       {/* <Price /> */}
     

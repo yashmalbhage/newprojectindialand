@@ -16,6 +16,7 @@ import videobg from './coimbatore.mp4'
 import YourComponent from '../projectdesc/Projectdsc'
 import Imagegrid from '../Imagegrid/Imagegrid'
 
+
 export const Project2 = () => {
   const sections = [
     {

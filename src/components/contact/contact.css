@@ -1,28 +1,51 @@
 .contact form div {
-  display: flex;
+    display: flex;
 }
+
 .contact textarea {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 100%;
-  border-radius: 5px;
-  margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
+
 .contact input {
-  margin-bottom: 20px;
-  margin-right: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
 }
+
 .contact form {
-  padding: 30px;
+    padding: 30px;
 }
-@media screen and (max-width: 768px) {
-  .contact h4 {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-  .contact form div {
-    flex-direction: column;
-  }
-  .contact input {
-    width: 100%;
-  }
+
+.contactcontainer {
+    display: flex;
+    /* margin: 30px; */
+}
+
+.contactcontainer .box {
+    margin: 10px;
+    justify-content: center;
+    padding: 2%;
+}
+
+.box2 h4 {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1020px) {
+    .contact h4 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact form div {
+        flex-direction: column;
+    }
+    .contact input {
+        width: 100%;
+    }
+    .contactcontainer {
+        flex-wrap: wrap;
+    }
 }

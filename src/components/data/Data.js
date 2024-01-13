@@ -35,22 +35,22 @@ export const featured = [
   
   {
     cover: "../images/hero/h2.png",
-    name: "Area Development",
+    name: "Office Spaces",
     total: "",
   },
   {
     cover: "../images/hero/h3.png",
-    name: "Retail Spaces",
+    name: "Industrial Parks",
     total: "",
   },
   {
     cover: "../images/hero/h4.png",
-    name: "Commercial spaces",
+    name: "Retail Real Estate",
     total: "",
   },
   {
     cover: "../images/hero/h6.png",
-    name: "Under construction",
+    name: "Buill To Suit",
     total: "",
   },
   
@@ -150,11 +150,8 @@ export const awards = [
     num: "10+",
     name: "II & INDUSTRAIL PARKS",
   },
-  {
-    icon: <i class='fa-solid fa-lightbulb'></i>,
-    num: "10+",
-    name: "Years of expereince",
-  },
+  
+ 
 ]
 export const location = [
   {

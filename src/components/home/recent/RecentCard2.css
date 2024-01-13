@@ -14,13 +14,24 @@ img {
     width: 100%
 }
 
+.blogcontainer {
+    display: flex;
+}
+
+.box {
+    width: 30%
+}
+
 
 /* Add additional styling for specific screen sizes using media queries */
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width:1020px) {
     .box {
-        width: 48%;
+        width: 100%;
         /* Example: Two columns on screens wider than 600px */
+    }
+    .blogcontainer {
+        flex-wrap: wrap;
     }
 }
 

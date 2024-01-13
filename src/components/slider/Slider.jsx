@@ -8,7 +8,7 @@ const breakPoints = [
     { width: 1200, itemsToShow: 4 },
   ];
   
-export const Slider = (img1, img2, img3, img4, img5, img6, img7) => {
+export const Slider = ({img1, img2, img3, img4, img5, img6, img7}) => {
 
   return (
     <div>
