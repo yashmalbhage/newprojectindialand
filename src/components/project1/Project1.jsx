@@ -17,30 +17,30 @@ import Imagegrid from '../Imagegrid/Imagegrid'
 export const Project1 = () => {
   const sections = [
     {
-      title: 'Project description',
+      title: ' Introduction',
       paragraph:
         
         "Pune is the 2nd largest city in Maharashtra with a population of about 4 million. Pune is known as the “Oxford of the East” due to the presence of a large number of Educational Institutions. The city is emerging rapidly as an Automobile and IT & ITES destination.",
     },
     {
-      title: 'Project description',
+      title: 'Location and connectiity',
       paragraph:
         "The Industrial Park is located in Hinjewadi situated west of the city of Pune. The site is at a distance of 18 Km from Pune railway Station and 23 Km from the airport. The site is located close to the Pune-Mumbai Expressway which passes through Hinjewadi Town. Hinjewadi has emerged as a preferred IT & ITES destination and has tremendously contributed to the growing presence of IT & ITES companies in Pune.",
     },
     {
-      title: 'Project description',
+      title: ' Hinjewadi as an IT & ITES Hub',
       paragraph:
         "The Industrial Park spreads out in 28 acres of land, oriented North-South, nestled on Eastern side of Western Ghats, with access roads of 20M on the northern side.",
     },
     {
-      title: 'Project description',
+      title: ' Industrial Park Overview',
       paragraph:
-        "In summary, Chennai's dynamic industrial landscape, fueled by the Oragadam Industrial Area, establishes the city as a key player in South Asia's automobile manufacturing sector. The IndiaLand Industrial and Logistic Park, with its strategic location and dedicated infrastructure, stands as a vital resource for automotive giants, offering efficient solutions for storage and distribution in the heart of this thriving industrial hub.",
+        "Occupying 28 acres of land with a North-South orientation, the Industrial Park is nestled on the eastern side of the Western Ghats. Access roads of 20 meters on the northern side ensure efficient connectivity within the park. This well-planned layout aligns with the industrial needs of the region, fostering a conducive environment for businesses.",
     },
     {
-      title: 'Project description',
+      title: 'Educational and Corporate Presence',
       paragraph:
-        "The site is located close to the Rajiv Gandhi Infotech Park, which houses IT Companies such as Infosys, Wipro, Geometric Software solutions, CTS, TCS etc. Educational institutes like Symbiosis and Mercedes Benz Education Academy have also set base at Hinjewadi",
+        "The site's significance is further underscored by its proximity to the Rajiv Gandhi Infotech Park, housing renowned IT companies such as Infosys, Wipro, Geometric Software Solutions, CTS, and TCS. Additionally, esteemed educational institutions like Symbiosis and the Mercedes Benz Education Academy have established their presence in Hinjewadi, creating a holistic environment that integrates academia and industry. As Pune continues to evolve, the Industrial Park in Hinjewadi remains at the forefront of shaping the city's industrial and educational landscape.",
     },
    
     // Add more sections as needed

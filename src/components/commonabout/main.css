@@ -10,6 +10,7 @@
 
 .about .container .row {
     width: 100vh;
+    justify-content: center;
 }
 
 .about p {
