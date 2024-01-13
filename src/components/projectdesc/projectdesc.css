@@ -51,7 +51,7 @@
 #progress-bar-container li.active:before,
 #progress-bar-container li:hover:before {
     border: solid 2px #fff;
-    background: linear-gradient(to right, rgb(49, 49, 196) 0%, #fff 100%);
+    background: rgb(12, 85, 170)
 }
 
 #progress-bar-container li {
