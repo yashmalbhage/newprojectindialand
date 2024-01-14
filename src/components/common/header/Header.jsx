@@ -17,7 +17,7 @@ const Header = () => {
       <header>
         <div className='container flex'>
           <div className='logo'>
-            <h1>IndiaLand</h1>
+            <img src="../../../Assets/India land tag - Made with Clipchamp (1).gif" alt="" />
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
