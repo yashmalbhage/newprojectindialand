@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import { Dropdown } from 'react-bootstrap';
 /* index.css or any other main styles file */
 import 'bootstrap/dist/css/bootstrap.min.css';
+import vid from '../../../Assets/India land tag - Made with Clipchamp (1).gif'
+
 
 
 const Header = () => {
@@ -17,7 +19,7 @@ const Header = () => {
       <header>
         <div className='container flex'>
           <div className='logo'>
-            <img src="../../../Assets/India land tag - Made with Clipchamp (1).gif" alt="" />
+            <img src={vid} alt="" />
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>

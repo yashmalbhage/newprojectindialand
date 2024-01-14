@@ -13,10 +13,13 @@ import { Chiarman } from "../Chairman/Chiarman"
 import { Project1 } from "../project1/Project1"
 import { Project2 } from "../project2/Project2"
 import { Project3 } from "../project3/Project3"
+import Preloader from "../preloader/Preloader"
 
 const Pages = () => {
   return (
     <>
+      <Preloader/>
+
       <Router>
         <Header />
         <Switch>

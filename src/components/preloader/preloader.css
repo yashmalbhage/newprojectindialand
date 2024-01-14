@@ -1,0 +1,35 @@
+.preloader {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.preloadertext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.preloadertext h4 {
+    background-image: linear-gradient(to right, #3b5eb0, #63a0ff);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.preloadertext p {
+    background-image: linear-gradient(to right, #bc975a, #ffe082);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}

@@ -13,9 +13,13 @@ import { Newheader } from "../neHeader/Newheader"
 import VideoBackground from "../videobg/Videobg"
 import videobg from './coimbatore.mp4'
 import './home.css'
+import Preloader from "../preloader/Preloader"
 const Home = () => {
   return (
+
     <>
+  
+       <>
         {/* <Newheader/> */}
         {/* <Hero /> */}
 
@@ -48,6 +52,8 @@ const Home = () => {
     
     </>
 
+    </>
+   
   
   )
 }
