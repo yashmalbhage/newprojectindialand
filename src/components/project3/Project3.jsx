@@ -13,9 +13,18 @@ import  VideoBackground from '../videobg/Videobg'
 import vidoebg from './Chennai.mp4'
 import YourComponent from '../projectdesc/Projectdsc'
 import Imagegrid from '../Imagegrid/Imagegrid'
+import Clientslider from '../clientslider/Clientslider'
 
 
 export const Project3 = () => {
+
+
+  const clientimgs = [
+    {index:1, img:'../images/Chennai/clients/appolo.webp'},
+    {index:2, img:'../images/Chennai/clients/renault.webp'},
+    {index:3, img:'../images/Chennai/clients/vntec.png'},
+
+  ]
   const sections = [
     {
       title: 'Introduction',
@@ -55,6 +64,7 @@ export const Project3 = () => {
     
     <YourComponent sections={sections}/>
     <Imagegrid img1='../images/Chennai/2.jpg' img2='../images/Chennai/3.jpg' img3='../images/Chennai/4.jpg' img4='../images/Chennai/5.jpg' img5='../images/Chennai/1.jpg'/>
+    <Clientslider clientimgs={clientimgs} slides={3}/>
 
   
         

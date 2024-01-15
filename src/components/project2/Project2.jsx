@@ -15,9 +15,36 @@ import VideoBackground from '../videobg/Videobg'
 import videobg from './coimbatore.mp4'
 import YourComponent from '../projectdesc/Projectdsc'
 import Imagegrid from '../Imagegrid/Imagegrid'
-
+import Clientslider from '../clientslider/Clientslider'
 
 export const Project2 = () => {
+
+  const clientimgs = [
+    {index:1, img:'../images/Coimbatore (2)/clients/altran.webp'},
+    {index:2, img:'../images/Coimbatore (2)/clients/amazon.webp'},
+    {index:3, img:'../images/Coimbatore (2)/clients/cafe.webp'},
+    {index:4, img:'../images/Coimbatore (2)/clients/ebix.png'},
+    {index:5, img:'../images/Coimbatore (2)/clients/harman.webp'},
+    {index:6, img:'../images/Coimbatore (2)/clients/hdfc.webp'},
+    {index:7, img:'../images/Coimbatore (2)/clients/hella.webp'},
+    {index:8, img:'../images/Coimbatore (2)/clients/icici.webp'},
+    {index:9, img:'../images/Coimbatore (2)/clients/m-tel.png'},
+    {index:10, img:'../images/Coimbatore (2)/clients/reliance.webp'},
+    {index:11, img:'../images/Coimbatore (2)/clients/sbi-1.webp'},
+    {index:12, img:'../images/Coimbatore (2)/clients/t.png'},
+    {index:13, img:'../images/Coimbatore (2)/clients/tata.webp'},
+    {index:14, img:'../images/Coimbatore (2)/clients/ugam.png'},
+    {index:15, img:'../images/Coimbatore (2)/clients/vertical.webp'},
+    {index:16, img:'../images/Coimbatore (2)/clients/vodafone.webp'},
+   
+
+
+
+
+
+
+
+  ]
   const sections = [
     {
       title: 'Introduction and Location',
@@ -57,6 +84,7 @@ export const Project2 = () => {
             <YourComponent sections={sections}/>
             <Imagegrid img1='../images/coimbatore/1.jpg' img2='../images/coimbatore/3.jpg' img3='../images/coimbatore/4.jpg' img4='../images/coimbatore/6.jpg' img5='../images/coimbatore/2.jpg'/>
 
+            <Clientslider clientimgs={clientimgs} slides={10}/>
 
       
 
