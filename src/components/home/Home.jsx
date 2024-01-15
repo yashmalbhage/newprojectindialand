@@ -14,10 +14,35 @@ import VideoBackground from "../videobg/Videobg"
 import videobg from './coimbatore.mp4'
 import './home.css'
 import Preloader from "../preloader/Preloader"
+import Testi from "./testimonials/Testi"
+import Clientslider from "../clientslider/Clientslider"
+import { faInbox } from "@fortawesome/free-solid-svg-icons"
+
 const Home = () => {
+  
+const clientimgs = [
+  {index:1, img:'../images/Home Page clients/acer.png'},
+  {index:2, img:'../images/Home Page clients/atlas_copco.jpg'},
+  {index:3, img:'../images/Home Page clients/borosil_logo.jpg'},
+  {index:4, img:'../images/Home Page clients/Hamleys.jpg'},
+  {index:5, img:'../images/Home Page clients/lakeme_saloon_logo.jpg'},
+  {index:6, img:'../images/Home Page clients/pantaloon_logo.jpg'},
+  {index:7, img:'../images/Home Page clients/renault_logo.jpg'},
+  {index:8, img:'../images/Home Page clients/tacobell_logo.jpg'},
+  {index:9, img:'../images/Home Page clients/tata_logo.jpg'},
+  {index:10, img:'../images/Home Page clients/wow_momo_logo.jpg'}
+
+
+
+
+
+
+
+]
   return (
 
     <>
+
   
        <>
         {/* <Newheader/> */}
@@ -32,7 +57,12 @@ const Home = () => {
         <div className="animatedpart"> <Commonabt/></div>
         <div className="animatedpart"> <Awards /></div>
         <div className="animatedpart"> <Recent /></div>
-        <div className="animatedpart"> <Blog/></div>
+        <div className="animatedpart"> <Blog/>
+        <Clientslider clientimgs={clientimgs}/>
+
+        <Testi/>
+        
+        </div>
 
 
 

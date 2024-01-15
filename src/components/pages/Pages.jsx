@@ -18,7 +18,8 @@ import Preloader from "../preloader/Preloader"
 const Pages = () => {
   return (
     <>
-      <Preloader/>
+          <Preloader/>
+
 
       <Router>
         <Header />
