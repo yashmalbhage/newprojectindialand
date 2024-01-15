@@ -13,8 +13,38 @@ import im6 from '../images/Pune/6.jpg'
 import YourComponent from '../projectdesc/Projectdsc'
 import videong from './pune.mp4'
 import Imagegrid from '../Imagegrid/Imagegrid'
+import Clientslider from '../clientslider/Clientslider'
 
 export const Project1 = () => {
+  const clientimgs = [
+    {index:1, img:'../images/Pune (2)/apex.png'},
+    {index:2, img:'../images/Pune (2)/atlas.png'},
+    {index:3, img:'../images/Pune (2)/bio.png'},
+    {index:4, img:'../images/Pune (2)/Bizerba.jpg'},
+    {index:5, img:'../images/Pune (2)/Blg-logistics.jpg'},
+    {index:6, img:'../images/Pune (2)/borosil.png'},
+    {index:7, img:'../images/Pune (2)/dungs.png'},
+    {index:8, img:'../images/Pune (2)/Eaton.jpg'},
+    {index:9, img:'../images/Pune (2)/fischer.png'},
+    {index:10, img:'../images/Pune (2)/kone.png'},
+    {index:11, img:'../images/Pune (2)/lap.png'},
+    {index:12, img:'../images/Pune (2)/maya.webp'},
+    {index:13, img:'../images/Pune (2)/mnm.png'},
+    {index:14, img:'../images/Pune (2)/nord.png'},
+    {index:15, img:'../images/Pune (2)/tata.png'},
+    {index:16, img:'../images/Pune (2)/twin-seal.jpg'},
+    {index:17, img:'../images/Pune (2)/vee.png'},
+    {index:18, img:'../images/Pune (2)/walter.png'},
+
+
+
+
+
+
+
+
+  ]
+    
   const sections = [
     {
       title: ' Introduction',
@@ -50,7 +80,9 @@ export const Project1 = () => {
          <section className='about'>
           <VideoBackground videoFile={videong} title='INDIALAND GLOBAL INDUSTRIAL PARK'/>
           <YourComponent sections={sections}/>
+          
           <Imagegrid img1='../images/Pune/2.jpg' img2='../images/Pune/3.jpg' img3='../images/Pune/4.jpg' img4='../images/Pune/6.jpg' img5='../images/Pune/7.jpg'/>
+          <Clientslider clientimgs={clientimgs} slides={10}/>
 
        
     
