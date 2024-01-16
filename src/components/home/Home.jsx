@@ -61,7 +61,7 @@ const clientimgs = [
         <div className="animatedpart"> <Blog/>
         <Clientslider clientimgs={clientimgs} slides={6}/>
 
-        {/* <Testi/> */}
+        <Testi/>
         
         </div>
 

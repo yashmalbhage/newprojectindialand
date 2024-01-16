@@ -31,7 +31,7 @@ const Clientslider = ({ clientimgs, slides}) => {
       onSlideChange={() => console.log('slide change')}
     >
         {clientimgs.map((clientimg, index)=>
-          <SwiperSlide key={index}><img src={clientimg.img} alt="" style={{width:"90%"}}/></SwiperSlide>
+          <SwiperSlide key={index}><img src={clientimg.img} alt="" style={{width:"70%"}}/></SwiperSlide>
         
         )}
     

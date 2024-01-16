@@ -50,7 +50,7 @@ export const featured = [
   },
   {
     cover: "../images/hero/h6.png",
-    name: "Buill To Suit",
+    name: "Built To Suit",
     total: "",
   },
   
@@ -108,6 +108,8 @@ export const list = [
     link:'/Hinjewadi'
     // type: "Offices",
   },
+  
+  
   
   
  

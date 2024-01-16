@@ -9,7 +9,7 @@ const MissonCard = ({icon, name, para, number, email, addr}) => {
   return (
    
        
-          <div className='box shadow'>
+          <div className='box shadow' style={{padding:'4%'}}>
           <FontAwesomeIcon icon={icon} color=' #bc975a'/>
 
 

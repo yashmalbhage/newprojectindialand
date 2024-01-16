@@ -180,7 +180,7 @@ img {
 }
 
 .back h1 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
 }
 
@@ -212,5 +212,8 @@ img {
     .back img,
     .back {
         height: 30vh;
+    }
+    .back h1 {
+        font-size: 25px;
     }
 }

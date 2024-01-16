@@ -55,9 +55,10 @@ const Header = () => {
 
                   <Dropdown.Menu>
                     <Dropdown.Item href="/Hinjewadi">Hinjewadi</Dropdown.Item>
-                    <Dropdown.Item href="/Chennai">Chennai</Dropdown.Item>
                     <Dropdown.Item href="/Coimbatore">Coimbatore</Dropdown.Item>
-                    <Dropdown.Item href="/Magarpatta">Coimbatore</Dropdown.Item>
+
+                    <Dropdown.Item href="/Chennai">Chennai</Dropdown.Item>
+                    <Dropdown.Item href="/Magarpatta">Magarpatta</Dropdown.Item>
 
 
                     {/* Add more project links as needed */}
