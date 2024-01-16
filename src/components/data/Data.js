@@ -121,15 +121,19 @@ export const list2 = [
     // category: "For Rent",
     price: "Know more",
     // type: "Apartment",
+    link:'/fir'
   },
   {
     id: 2,
-    cover: "../blog/blog2.png",
+    cover: "../images/blog1500.jpg",
+
+   
     name: "IndiaLand's Green initiative",
     subtitle: "Transforming real estate with sustainble ",
     // category: "For Sale",
     price: "Know more",
     // type: "Condos",
+    link:'/sec'
   },
  
 ]
@@ -284,16 +288,16 @@ export const price = [
   },
 ]
 export const footer = [
-  {
-    title: "LAYOUTS",
-    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Project" }, { list: "Blogs" }, { list: "Contact Page" }, { list: "" }],
-  },
-  {
-    title: "ALL SECTIONS",
-    text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "" }, { list: "Footers" }],
-  },
+  // {
+  //   title: "LAYOUTS",
+  //   text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Project" }, { list: "Blogs" }, { list: "Contact Page" }, { list: "" }],
+  // },
+  // {
+  //   title: "ALL SECTIONS",
+  //   text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "" }, { list: "Footers" }],
+  // },
   {
     title: "COMPANY",
-    text: [{ list: "About" }, { list: "Blog" }, { list: "Contact" }, { list: "" }, { list: "" }, { list: "" }],
+    text: [{ list: "Home" }, { list: "About IndiaLand" }, { list: "Chairman's corner" }, { list: "Leadrship" }, { list: "Projects" }, { list: "Blogs" }],
   },
 ]

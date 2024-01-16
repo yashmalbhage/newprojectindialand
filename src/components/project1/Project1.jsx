@@ -16,35 +16,19 @@ import Imagegrid from '../Imagegrid/Imagegrid'
 import Clientslider from '../clientslider/Clientslider'
 
 export const Project1 = () => {
-  const clientimgi = [
-    {index:1, img:'../images/Punelogo/apex.png'},
-    {index:2, img:'../images/Punelogo/atlas.png'},
-    {index:3, img:'../images/Punelogo/bio.png'},
-    {index:4, img:'../images/Punelogo/Bizerba.jpg'},
-    {index:5, img:'../images/Punelogo/Blg-logistics.jpg'},
-    {index:6, img:'../images/Punelogo/borosil.png'},
-    {index:7, img:'../images/Punelogo/dungs.png'},
-    {index:8, img:'../images/Punelogo/Eaton.jpg'},
-    {index:9, img:'../images/Punelogo/fischer.png'},
-    {index:10, img:'../images/Punelogo/kone.png'},
-    {index:11, img:'../images/Punelogo/lap.png'},
-    {index:12, img:'../images/Punelogo/maya.webp'},
-    {index:13, img:'../images/Punelogo/mnm.png'},
-    {index:14, img:'../images/Punelogo/nord.png'},
-    {index:15, img:'../images/Punelogo/tata.png'},
-    {index:16, img:'../images/Punelogo/twin-seal.jpg'},
-    {index:17, img:'../images/Punelogo/vee.png'},
-    {index:18, img:'../images/Punelogo/walter.png'},
-
-
-
-
-
-
-
-
-  ]
-    
+   
+const clientimgs = [
+  {index:1, img:'../images/Home Page clients/acer.png'},
+  {index:2, img:'../images/Home Page clients/atlas_copco.jpg'},
+  {index:3, img:'../images/Home Page clients/borosil_logo.jpg'},
+  {index:4, img:'../images/Home Page clients/Hamleys.jpg'},
+  {index:5, img:'../images/Home Page clients/lakeme_saloon_logo.jpg'},
+  {index:6, img:'../images/Home Page clients/pantaloon_logo.jpg'},
+  {index:7, img:'../images/Home Page clients/renault_logo.jpg'},
+  {index:8, img:'../images/Home Page clients/tacobell_logo.jpg'},
+  {index:9, img:'../images/Home Page clients/tata_logo.jpg'},
+  {index:10, img:'../images/Home Page clients/wow_momo_logo.jpg'}
+]
   const sections = [
     {
       title: ' Introduction',
@@ -82,7 +66,7 @@ export const Project1 = () => {
           <YourComponent sections={sections}/>
           
           <Imagegrid img1='../images/Pune/2.jpg' img2='../images/Pune/3.jpg' img3='../images/Pune/4.jpg' img4='../images/Pune/6.jpg' img5='../images/Pune/7.jpg'/>
-          <Clientslider clientimgs={clientimgi} slides={10}/>
+          <Clientslider clientimgs={clientimgs} slides={5}/>
 
        
     

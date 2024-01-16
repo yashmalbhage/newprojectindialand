@@ -1,15 +1,14 @@
 import React from 'react'
-import Back from "../common/Back"
-import Heading from '../common/Heading'
+import Back from '../common/Back'
 import blog1 from './blog2.png'
-
-const Firstblog = () => {
+import './blogshow.css'
+const Nirstblog = () => {
   return (
     <div>
-        <Back title='Tower D' name="Introducing D Tower: A Fresh Perspective on Urban Living" cover={blog1}/>
+      <Back title='Tower D' name="Introducing D Tower: A Fresh Perspective on Urban Living" cover={blog1}/>
         
         <div className="blogpar">
-            <p>Amidst the hustle and bustle of our vibrant city, a striking architectural wonder is poised to 
+            <p id='#intro'>Amidst the hustle and bustle of our vibrant city, a striking architectural wonder is poised to 
 redefine our skyline – D Tower, a creation by Indialand. More than just a structure, this 
 project embodies a vision rooted in innovation, sustainability, and a dedicated 
 transformation of urban workplaces.</p>
@@ -56,9 +55,8 @@ contemporary, sustainable, and visionary real estate project can accomplish.
 Embark on the journey into the future with D Tower – where innovation meets the 
 environment.</p>
         </div>
-
     </div>
   )
 }
 
-export default Firstblog
+export default Nirstblog

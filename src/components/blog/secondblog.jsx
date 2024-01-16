@@ -2,13 +2,15 @@ import React from 'react'
 import Back from "../common/Back"
 import Heading from '../common/Heading'
 import blog1 from './blog1.jpg'
+import './blogshow.css'
+
 
 const Secondblog = () => {
   return (
     <div>
             <Back title='Indialand’s Green Initiative' name="Indialand's Green Revolution: Transforming Real Estate with Sustainable Initiatives" cover={blog1}/>
-            <div className="blogpar" style={{padding:"10%"}}>
-                <p>In the rapidly evolving landscape of real estate, sustainability has become more than just a 
+            <div className="blogpar">
+                <p id='#intro'>In the rapidly evolving landscape of real estate, sustainability has become more than just a 
 buzzword—it's a responsibility. Indialand, a leading real estate brand, is making significant 
 strides in reshaping the industry through its green initiatives, setting a benchmark for 
 environmental consciousness and social responsibility</p>

@@ -7,11 +7,11 @@ const RecentCard2 = () => {
     <>
       <div className='blogcontainer' style={{ justifyContent: 'center'}}>
         {list2.map((val, index) => {
-          const { cover, subtitle, name, price } = val;
+          const { cover, subtitle, name, price, link } = val;
           return (
             <div className='box shadow' key={index} style={{marginLeft:'2%'}}>
               <div className='img' style={{display:'flex', justifyContent:'center'}}>
-                <img src={cover} alt='' style={{width:"70%"}}/>
+                <img src={cover} alt='' style={{width:"60%"}}/>
               </div>
               <div className='text'>
                 <div className='category flex'>
@@ -23,7 +23,8 @@ const RecentCard2 = () => {
               </div>
               <div className='button flex'>
                 <div>
-                  <button className='btn4'>{price}</button> <label htmlFor=''></label>
+                  <a href={link}>                  <button className='btn4'>{price}</button> <label htmlFor=''></label>
+</a>
                 </div>
               </div>
             </div>

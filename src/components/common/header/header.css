@@ -1,6 +1,6 @@
 header {
     background-color: #fefeff;
-    height: 12vh;
+    height: 12.7vh;
     box-shadow: 0 5px 30px rgba(22, 24, 28, 0.1);
     padding: 15px 0;
     position: relative;
@@ -9,7 +9,7 @@ header {
 }
 
 header img {
-    width: 100px;
+    width: 120px;
     margin-bottom: 0px;
 }
 

@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 import { Dropdown } from 'react-bootstrap';
 /* index.css or any other main styles file */
 import 'bootstrap/dist/css/bootstrap.min.css';
-import vid from '../../../Assets/India land tag - Made with Clipchamp (1).gif'
+import vid from '../../../Assets/logo (2).png'
+
 
 
 
@@ -56,6 +57,8 @@ const Header = () => {
                     <Dropdown.Item href="/Hinjewadi">Hinjewadi</Dropdown.Item>
                     <Dropdown.Item href="/Chennai">Chennai</Dropdown.Item>
                     <Dropdown.Item href="/Coimbatore">Coimbatore</Dropdown.Item>
+                    <Dropdown.Item href="/Magarpatta">Coimbatore</Dropdown.Item>
+
 
                     {/* Add more project links as needed */}
                   </Dropdown.Menu>

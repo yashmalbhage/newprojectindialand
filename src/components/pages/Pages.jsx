@@ -5,7 +5,7 @@ import Home from "../home/Home"
 import Footer from "../common/footer/Footer"
 import About from "../about/About"
 import Pricing from "../pricing/Pricing"
-import Firstblog from "../blog/firstblog"
+import Nirstblog from "../blog/firstblog"
 import Secondblog from "../blog/secondblog"
 // import Blog from "../blog/Blog1"
 import Services from "../services/Services"
@@ -16,6 +16,7 @@ import { Project1 } from "../project1/Project1"
 import { Project2 } from "../project2/Project2"
 import { Project3 } from "../project3/Project3"
 import Preloader from "../preloader/Preloader"
+import Project4 from "../project4/project.4"
 import Navbar from "../common/newNabar/Navbar"
 
 const Pages = () => {
@@ -38,7 +39,9 @@ const Pages = () => {
           <Route exact path='/Hinjewadi' component={Project1} />
           <Route exact path='/Coimbatore' component={Project2} />
           <Route exact path='/Chennai' component={Project3} />
-          <Route exact path = '/fir' Component={Firstblog}/>
+          <Route exact path='/Magarpatta' component={Project4} />
+
+          <Route exact path = '/fir' component={Nirstblog}/>
           <Route exact path = '/sec' component={Secondblog}/>
           
 
