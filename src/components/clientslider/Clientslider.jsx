@@ -24,7 +24,7 @@ const Clientslider = ({ clientimgs, slides}) => {
       spaceBetween={20}
       slidesPerView={initialSlidesPerView}
       // navigation
-      pagination={{ clickable: true}}
+      // pagination={{ clickable: true}}
       autoplay
       // scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
