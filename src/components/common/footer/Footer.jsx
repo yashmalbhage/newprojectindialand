@@ -5,7 +5,7 @@ import "./footer.css"
 const Footer = () => {
   return (
     <>
-      {/* <section className='footerContact'>
+      <section className='footerContact'>
         <div className='container'>
           <div className='send flex'>
             <div className='text'>
@@ -15,7 +15,7 @@ const Footer = () => {
             <button className='btn5'>Contact Us Today</button>
           </div>
         </div>
-      </section> */}
+      </section>
 
       <footer>
         <div className='container'>
@@ -23,17 +23,17 @@ const Footer = () => {
             <div className='logo'>
               {/* <img src='../images/logo-light.png' alt='' /> */}
               IndiaLand
-              {/* <h2>Do You Need Help With Anything?</h2> */}
-              {/* <p>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p> */}
+              <h2>Do You Need Help With Anything?</h2> 
+              <p>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>
 
               <div className='input flex'>
-                {/* <input type='text' placeholder='Email Address' />
-                <button>Subscribe</button> */}
+                <input type='text' placeholder='Email Address' />
+                <button>Subscribe</button>
               </div>
             </div>
           </div>
 
-          {/* {footer.map((val) => (
+          {footer.map((val) => (
             <div className='box'>
               <h3>{val.title}</h3>
               <ul>
@@ -42,7 +42,7 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-          ))} */}
+          ))}
         </div>
       </footer>
       <div className='legal'>

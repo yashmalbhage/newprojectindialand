@@ -17,14 +17,7 @@ import Preloader from "../preloader/Preloader"
 import Testi from "./testimonials/Testi"
 import Clientslider from "../clientslider/Clientslider"
 import { faInbox } from "@fortawesome/free-solid-svg-icons"
-import logo1 from '../images/Home Page clients/acer.png'
-import logo2 from '../images/Home Page clients/atlas_copco.jpg'
-import logo3 from '../images/Home Page clients/borosil_logo.jpg'
-import logo4 from '../images/Home Page clients/lakeme_saloon_logo.jpg'
-import logo5 from '../images/Home Page clients/pantaloon_logo.jpg'
-import logo6 from '../images/Home Page clients/renault_logo.jpg'
-import logo7 from '../images/Home Page clients/tacobell_logo.jpg'
-import logo8 from '../images/Home Page clients/tata_logo.jpg'
+
 
 
 
@@ -46,13 +39,6 @@ const clientimgs = [
   {index:8, img:'../images/Home Page clients/tacobell_logo.jpg'},
   {index:9, img:'../images/Home Page clients/tata_logo.jpg'},
   {index:10, img:'../images/Home Page clients/wow_momo_logo.jpg'}
-
-
-
-
-
-
-
 ]
   return (
 
@@ -75,7 +61,7 @@ const clientimgs = [
         <div className="animatedpart"> <Blog/>
         <Clientslider clientimgs={clientimgs} slides={6}/>
 
-        <Testi/>
+        {/* <Testi/> */}
         
         </div>
 

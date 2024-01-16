@@ -18,7 +18,7 @@ const Clientslider = ({ clientimgs, slides}) => {
   return (
     <div>
         <Heading title="Our clients"/>
-        <div className="clietimgslider" style={{margin:'1%'}}>
+        <div className="clietimgslider" style={{margin:'4%'}}>
         <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={20}
