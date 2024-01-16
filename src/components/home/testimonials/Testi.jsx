@@ -42,7 +42,7 @@ const Testi= () => {
                   
 <Swiper
   modules={[Navigation, Pagination]}
-      spaceBetween={20}
+      spaceBetween={50}
       slidesPerView={1}
       Pagination={{ clickable: true }}
       Autoplay={{ delay: 0, disableOnInteraction: false }}
