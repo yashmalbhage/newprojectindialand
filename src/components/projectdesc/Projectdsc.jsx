@@ -9,7 +9,7 @@ const YourComponent = ({ sections }) => {
   };
 
   const steps = sections.map((section) => section.title);
-  const progressWidth = (activeStep + 1) * (20);
+  const progressWidth = (activeStep ) * (25);
 
   return (
     <div>
@@ -24,7 +24,7 @@ const YourComponent = ({ sections }) => {
                 className={`step step0${index + 1} ${index <= activeStep ? 'active' : ''}`}
                 onClick={() => handleStepClick(index)}
               >
-                <div className="step-inner">Description</div>
+                <span>{index}</span>
               </li>
             ))}
           </ul>

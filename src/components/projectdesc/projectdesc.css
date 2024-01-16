@@ -51,7 +51,12 @@
 #progress-bar-container li.active:before,
 #progress-bar-container li:hover:before {
     border: solid 2px #fff;
-    background: rgb(12, 85, 170)
+    background: rgb(12, 85, 170);
+    color: gold
+}
+
+span:before {
+    color: white;
 }
 
 #progress-bar-container li {
@@ -79,7 +84,8 @@
 
 #progress-bar-container li.active,
 #progress-bar-container li:hover {
-    color: #444;
+    color: rgb(143, 122, 3);
+    ;
 }
 
 #progress-bar-container li:after {
@@ -91,7 +97,7 @@
     margin: auto;
     border: solid 7px #fff;
     border-radius: 50%;
-    margin-top: 40px;
+    margin-top: 18%;
     box-shadow: 0 2px 13px -1px rgba(0, 0, 0, 0.3);
     transition: all ease 0.2s;
 }
@@ -184,5 +190,8 @@
         width: 100%;
         bottom: 0;
         font-size: 5px;
+    }
+    #progress-bar-container li:after {
+        margin-top: 49%
     }
 }

@@ -124,7 +124,7 @@ export const list2 = [
   },
   {
     id: 2,
-    cover: "../images/blog2.png",
+    cover: "../blog/blog2.png",
     name: "IndiaLand's Green initiative",
     subtitle: "Transforming real estate with sustainble ",
     // category: "For Sale",

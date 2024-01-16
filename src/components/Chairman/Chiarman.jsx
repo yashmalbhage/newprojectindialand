@@ -34,9 +34,22 @@ export const Chiarman = () => {
         
         <section className='aboutchairman'>
         <Back name="Mr. Harish Fabiani" title="Chairman's Corner" cover={img} />
-        {/* <div className="chaiimage">  <img src={img} alt="" /></div> */}
+        <div className="chaiimage">  <img src={img} alt="" /></div>
         {/* <Heading title="Harish Fabiani" subtitle="Chair person"/> */}
         <YourComponent sections={secctions}/>
+       
+        <h3 id='quote'>Chairman's Quote</h3>
+
+        <div className="message">
+        
+          <p>
+          "Indialand was born out of a dream: A dream to build India of the 21st century, a dream to create places which are in harmony with nature and yet provide the most modern comforts. We believe in creating landmarks for modern India through imagination, innovation and creativity."
+
+          </p>
+        
+
+        </div>
+       
       
 
         
